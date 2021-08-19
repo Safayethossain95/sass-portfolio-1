@@ -1,0 +1,56 @@
+@import "../variable/background-color";
+@import "../mixin/div";
+@import "../mixin/responsive";
+@import "../variable/font";
+
+#nav{
+     @include divtest(100%,100px,transparent);
+     @include responsive(320px,575px){
+          background-color: black;
+     }
+     .container{
+          .navbar{
+               .main{
+
+                    .logo{
+                         @include divtest(30%,100px,transparent);
+                         h2{
+                              font-family: $halant;
+                              font-weight: 700;
+                              font-size: 36px;
+                              line-height: 100px;
+                              color:#222;
+                         }
+                    }
+                    .menu{
+                         @include divtest(70%,100px,transparent);
+                         text-align: right;
+                         
+                         ul{
+                              
+                              li{
+                                   display: inline-block;
+                                   a{
+                                        padding:0 15px;
+                                        line-height: 100px;
+                                        font-family: $nunito;
+                                        font-size: 18px;
+                                        font-weight: 400;
+                                        color:#222;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+    
+   
+     
+         
+               
+                   
+               
+          
+     
+}

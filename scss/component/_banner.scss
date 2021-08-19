@@ -1,0 +1,63 @@
+@import "../mixin/div";
+@import "../variable/background-color";
+
+
+#banner{
+     @include divtest(100%,auto,transparent);
+     
+
+     .banner-main{
+          display: flex;
+          .banner-left{
+               @include divtest(60%,auto,transparent);
+               margin-left:55px;
+               margin-top:100px;
+               h1{
+                    font-family: $halant;
+                    font-size: 48px;
+                    font-weight: 700;
+                    color:#222;
+               }
+               h3{
+                    font-family: $nunito;
+                    font-weight: 400;
+                    font-size: 24px;
+                    margin-top: 20px;
+               }
+               p{
+                    font-family: $nunito;
+                    font-weight: 400;
+                    font-size: 18px;
+                    padding-right: 342px;
+                    margin-top:25px;
+               }
+               a{
+                    @include divrad(150px,50px,$buttonbg,35px);
+                    color:#222;
+                    font-family: $halant;
+                    font-size: 20px;
+                    font-weight: 700;
+                    display: inline-block;
+                    text-align: center;
+                    line-height:50px;
+                    margin-top: 30px;
+               }
+          }
+          .banner-right{
+               @include divtest(40%,auto,transparent);
+               
+               
+               .img{
+                    margin-top:50px;
+                    img{
+                         width:393px;
+                    }
+               }
+              
+          }
+
+          
+     }
+     
+
+}

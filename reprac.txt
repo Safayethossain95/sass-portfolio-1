@@ -1,0 +1,29 @@
+menu
+banner
+about
+service
+team 
+contact
+
+variable
+  -- _text-color.scss
+  -- _background-color.scss
+  -- _button-color.scss
+  -- _gapping.scss
+
+
+pages
+  -- _home.scss
+  -- _about.scss
+
+mixin
+
+  -- _fonts.scss
+  -- _divsize.scss
+  -- _divtest.scss
+  -- _divwithradius
+
+component
+  -- _navbar.scss
+  -- _banner.scss
+  -- _about.scss

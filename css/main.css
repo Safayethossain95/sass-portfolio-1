@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  #nav {
+    background-color: black;
+  }
+}
+
+#nav .container .navbar .main .logo {
+  width: 30%;
+  height: 100px;
+  background: transparent;
+}
+
+#nav .container .navbar .main .logo h2 {
+  font-family: "Halant", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100px;
+  color: #222;
+}
+
+#nav .container .navbar .main .menu {
+  width: 70%;
+  height: 100px;
+  background: transparent;
+  text-align: right;
+}
+
+#nav .container .navbar .main .menu ul li {
+  display: inline-block;
+}
+
+#nav .container .navbar .main .menu ul li a {
+  padding: 0 15px;
+  line-height: 100px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+#banner .banner-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#banner .banner-main .banner-left {
+  width: 60%;
+  height: auto;
+  background: transparent;
+  margin-left: 55px;
+  margin-top: 100px;
+}
+
+#banner .banner-main .banner-left h1 {
+  font-family: "Halant", serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #222;
+}
+
+#banner .banner-main .banner-left h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#banner .banner-main .banner-left p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-right: 342px;
+  margin-top: 25px;
+}
+
+#banner .banner-main .banner-left a {
+  width: 150px;
+  height: 50px;
+  background: #FDC435;
+  border-radius: 35px;
+  color: #222;
+  font-family: "Halant", serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 30px;
+}
+
+#banner .banner-main .banner-right {
+  width: 40%;
+  height: auto;
+  background: transparent;
+}
+
+#banner .banner-main .banner-right .img {
+  margin-top: 50px;
+}
+
+#banner .banner-main .banner-right .img img {
+  width: 393px;
+}
+
+#about-part {
+  margin: 80px 0;
+}
+
+#about-part .container .about-title {
+  width: 200px;
+  height: auto;
+  background: transparent;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+#about-part .container .about-title h2 {
+  font-family: "Halant", serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #222;
+}
+
+#about-part .container .about-title::after {
+  position: absolute;
+  width: 140px;
+  height: 3px;
+  left: 50%;
+  bottom: 0;
+  background: #FDC435;
+  content: '';
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#about-part .container .about-whole {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about-part .container .about-whole .about-left {
+  width: 50%;
+  height: 400px;
+  background: transparent;
+}
+
+#about-part .container .about-whole .about-left .abimg {
+  margin-left: 120px;
+}
+
+#about-part .container .about-whole .about-left .abimg img {
+  width: 390px;
+}
+
+#about-part .container .about-whole .about-right {
+  width: 50%;
+  height: 400px;
+  background: transparent;
+}
+
+#about-part .container .about-whole .about-right .abrihgttext {
+  margin-top: 40px;
+}
+
+#about-part .container .about-whole .about-right .abrihgttext h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#about-part .container .about-whole .about-right .abrihgttext p {
+  margin-top: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 110px;
+}
+
+#blog .container .blog-title {
+  width: 200px;
+  height: auto;
+  background: transparent;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+#blog .container .blog-title h2 {
+  font-family: "Halant", serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #222;
+}
+
+#blog .container .blog-title::after {
+  position: absolute;
+  width: 140px;
+  height: 3px;
+  left: 50%;
+  bottom: 0;
+  background: #FDC435;
+  content: '';
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#blog .container .blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+#blog .container .blog-content .bleft {
+  width: 50%;
+  height: auto;
+  background: transparent;
+}
+
+#blog .container .blog-content .bleft .innerfirst {
+  margin: 40px auto;
+  width: 90%;
+  height: 400px;
+  background: #FDC435;
+  position: relative;
+}
+
+#blog .container .blog-content .bleft .innerfirst .innersecond {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  background: #fff;
+}
+
+#blog .container .blog-content .bleft .innerfirst .innersecond h2 {
+  font-family: "Halant", serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  padding: 20px 30px;
+}
+
+#blog .container .blog-content .bleft .innerfirst .innersecond p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  padding: 10px 30px;
+}
+
+#blog .container .blog-content .bright {
+  width: 50%;
+  height: auto;
+  background: transparent;
+}
+
+#blog .container .blog-content .bright .innerfirst {
+  margin: 40px auto;
+  width: 90%;
+  height: 400px;
+  background: #FDC435;
+  position: relative;
+}
+
+#blog .container .blog-content .bright .innerfirst .innersecond {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  background: #fff;
+}
+
+#blog .container .blog-content .bright .innerfirst .innersecond h2 {
+  font-family: "Halant", serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  padding: 20px 30px;
+}
+
+#blog .container .blog-content .bright .innerfirst .innersecond p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=main.css.map */

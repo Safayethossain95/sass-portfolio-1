@@ -1,0 +1,12 @@
+@mixin divtest($w,$h,$bg){
+     width:$w;
+     height:$h;
+     background: $bg;
+}
+
+@mixin divrad($w,$h,$bg,$r){
+     width:$w;
+     height:$h;
+     background: $bg;
+     border-radius: $r;
+}
